@@ -1,38 +1,40 @@
 // document.getElementById("count-el").innerText = 10;
 
-let count = 10
+// let count = 10
 
-count = count + 1 // 10 + 1 = 11
+// count = count + 1 // 10 + 1 = 11
 
-console.log(count)
-
-let bonusPoints = 50
-console.log(bonusPoints)
-
-bonusPoints = bonusPoints + 50
-console.log(bonusPoints)
-
-bonusPoints = bonusPoints - 75
-console.log(bonusPoints)
-
-bonusPoints = bonusPoints + 45
-console.log(bonusPoints)
-
-// another exercise for practise
-// let firstBatch = 5
-
-// let secondBatch = 7
-
-// let count = firstBatch + secondBatch
-
-// // tohle se pouziva hlavne pro debugovani
 // console.log(count)
 
+// 9.
+// initialize the count as 0
+// listen for clicks in the increment button
+// increment the count variable when the button is clicked
+// change the count-el inthe HTML to reflect new count
 
-// Dog age - practise
+function increment() {
+  console.log("The button was clicked")
+}
+// 10.
+// Create a function that logs out the number 42 to the console
+// Call/invoke the function
 
-// let myAge = 28
-// let humanDogRatio = 7
+function loggings() {
+  console.log(42)
+}
 
-// let myDogAge = myAge * humanDogRatio
-// console.log(myDogAge)
+loggings()
+
+// 11.
+let lap1 = 34
+let lap2 = 33
+let lap3 = 36
+
+// Create a function that logs out the sum of all the lap times
+function logLapTime() {
+  let totalTime = lap1 + lap2 + lap3
+  console.log(totalTime)
+}
+
+logLapTime()
+
