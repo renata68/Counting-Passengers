@@ -6,8 +6,19 @@ count = count + 1 // 10 + 1 = 11
 
 console.log(count)
 
+let bonusPoints = 50
+console.log(bonusPoints)
 
+bonusPoints = bonusPoints + 50
+console.log(bonusPoints)
 
+bonusPoints = bonusPoints - 75
+console.log(bonusPoints)
+
+bonusPoints = bonusPoints + 45
+console.log(bonusPoints)
+
+// another exercise for practise
 // let firstBatch = 5
 
 // let secondBatch = 7
@@ -18,7 +29,8 @@ console.log(count)
 // console.log(count)
 
 
-// playing with js
+// Dog age - practise
+
 // let myAge = 28
 // let humanDogRatio = 7
 
