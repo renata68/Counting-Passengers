@@ -1,5 +1,13 @@
 // document.getElementById("count-el").innerText = 10;
 
+let count = 10
+
+count = count + 1 // 10 + 1 = 11
+
+console.log(count)
+
+
+
 // let firstBatch = 5
 
 // let secondBatch = 7
