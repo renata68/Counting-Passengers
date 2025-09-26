@@ -9,6 +9,23 @@ h1 {
   font-size: 60px;
   color:red;
 }
-.container{
+.container {
   text-align:center;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;       /* zaoblené rohy */
+  cursor: pointer;
+  background-color: #ff4d4d;
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: blueviolet !important;
+  transform: scale(1.1);
 }
