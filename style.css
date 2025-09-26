@@ -3,33 +3,32 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: center;     /* centrování horizontálně */
-  align-items: flex-start;        /* centrování vertikálně */
-  padding-top: 50px;            /* posune container lehce dolů */
-  /* Tady je container menší, protože padding je menší a flexbox určuje pozici. */
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
 }
 
 h1 {
   font-style: italic;
   font-size: 60px;
   color:red;
-  -webkit-text-stroke: 1px black; /* tloušťka a barva obrysu */
+  -webkit-text-stroke: 1px black;
 }
 
 @media (max-width: 500px) {
   h1 {
-    font-size: 40px; /* zmenšíme nadpis na malých obrazovkách */
+    font-size: 40px;
   }
 }
 
 .container {
-  display: block; /* zarovnani podle textu a tez jsem to zmenila z inline-blok protoze jinak bych nemohla zvetsit container pri najeti mysi */
+  display: block;
   text-align:center;
   padding: 20px 30px;
   border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.3); /* lehce světlejší a průhledné */
-  border: 2px solid rgba(255,255,255,0.5);    /* jemné ohraničení */
-  box-shadow: 0 4px 15px rgba(0,0,0,0.4);     /* jemný stín pro hloubku */
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 2px solid rgba(255,255,255,0.5);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
 }
 
 button {
@@ -37,18 +36,18 @@ button {
   padding: 10px 20px;
   margin: 10px;
   border-radius: 10px;
-  cursor: pointer; /*pointer → klasická ruka, která značí, že na tlačítko můžeš kliknout. */
+  cursor: pointer;
   background-color: #ff4d4d;
   color: white;
-  transition: 0.3s; /*změň ji plynule během 0,3 sekundy */
+  transition: 0.3s;
 }
 
 button:hover {
   background-color: blueviolet;
-  transform: scale(1.1); /* zvetseni */
+  transform: scale(1.1);
 }
 
-.container:hover { /* zvetseni containeru */
+.container:hover { 
   transform: scale(3.0);
   transition: transform 0.5s;
 }
