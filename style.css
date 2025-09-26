@@ -23,7 +23,7 @@ h1 {
 }
 
 .container {
-  display: inline-block; /* zarovnani podle textu*/
+  display: block; /* zarovnani podle textu a tez jsem to zmenila z inline-blok protoze jinak bych nemohla zvetsit container pri najeti mysi */
   text-align:center;
   padding: 20px 30px;
   border-radius: 20px;
@@ -46,4 +46,9 @@ button {
 button:hover {
   background-color: blueviolet;
   transform: scale(1.1); /* zvetseni */
+}
+
+.container:hover { /* zvetseni containeru */
+  transform: scale(3.0);
+  transition: transform 0.5s;
 }
