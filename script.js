@@ -1,12 +1,30 @@
-// document.getElementById("count-el").innerText = 10;
+// // camelCase
+// let countEL = document.getElementById("count-el")
 
-// 9.
-// initialize the count as 0
-// listen for clicks in the increment button
-// increment the count variable when the button is clicked
-// change the count-el inthe HTML to reflect new count
+// console.log(countEl) // it is a model of HTML element
+
+// let count = 0 //we have to start with 0 increment the count variable when the button is clicked
+
+
+// function increment() {
+//   // console.log("clicked!")
+//   count = count + 5
+//   countEl.innerText = count
+//   // console.log(count)
+// }
+
+let countEL = document.getElementById("count-el")
+let count = 0
 
 function increment() {
-  console.log("The button was clicked")
+  // console.log("clicked!")
+  count = count + 5
+  countEl.innerText = count
 }
 
+// create a function save() which logs the count when it's called
+function save() {
+  console.log(count)
+}
+
+save()
