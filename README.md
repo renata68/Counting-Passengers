@@ -35,4 +35,4 @@ This project is part of my ongoing learning in web development. It helped me pra
 
 ## Author
 
-Rendy – Junior Web Developer in training
+Renata – Junior Web Developer in training
